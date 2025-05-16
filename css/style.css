@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+}
+
+body {
+    /* background-image: url(../image/elantra_N.png); */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#gradiant {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#0000002f);
+    z-index: -99999;
+}
+
+#clock {
+    color:#F9F9F9;
+    display: flex;
+    position: relative;
+    top: 40px;
+    right: 80px;
+    flex-direction: row-reverse;
+    font-size: 84px;
+}
+
+.container {
+display: flex;
+align-content: center;
+justify-content: center;
+flex-wrap: wrap;
+height: 100vh;
+max-width: 550px;
+margin: auto;
+gap: 50px;
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F9F9F9;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    font-size: 10px;
+}
+
+.box img {
+    width: 40px;
+    height: 40px;
+}
+
+#box5 img, #box6 img{
+    width: 70px;
+    height: 70px;
+}
+
+#box7 img {
+    width: 50px;
+    height: 50px;
+}
